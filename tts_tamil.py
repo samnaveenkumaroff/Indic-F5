@@ -10,7 +10,7 @@ from huggingface_hub import login
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # 🔹 Hugging Face Authentication
-HF_TOKEN = "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"
+HF_TOKEN = "<Your huggingface token>"
 login(HF_TOKEN)
 
 # 🔹 Load IndicF5 model
