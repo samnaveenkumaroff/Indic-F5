@@ -65,7 +65,6 @@ sf.write("namaste.wav", np.array(audio, dtype=np.float32), samplerate=24000)
 print("Audio saved succesfully.")
 ```
 
-You can find example prompt audios used [here](https://huggingface.co/ai4bharat/IndicF5/tree/main/prompts).
 
 ## Terms of Use
 By using this model, you agree to only clone voices for which you have explicit permission. Unauthorized voice cloning is strictly prohibited. Any misuse of this model is the responsibility of the user.
@@ -73,16 +72,3 @@ By using this model, you agree to only clone voices for which you have explicit 
 ## References
 
 We would like to extend our gratitude to the authors of  **[F5-TTS](https://github.com/SWivid/F5-TTS)** for their invaluable contributions and inspiration to this work. Their efforts have played a crucial role in advancing  the field of text-to-speech synthesis.
-
-
-## 📖 Citation
-If you use **IndicF5** in your research or projects, please consider citing it:
-
-### 🔹 BibTeX
-```bibtex
-@misc{AI4Bharat_IndicF5_2025,
-  author       = {Praveen S V and Srija Anand and Soma Siddhartha and Mitesh M. Khapra},
-  title        = {IndicF5: High-Quality Text-to-Speech for Indian Languages},
-  year         = {2025},
-  url          = {https://github.com/AI4Bharat/IndicF5},
-}
