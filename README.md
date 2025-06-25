@@ -65,7 +65,7 @@ sf.write("namaste.wav", np.array(audio, dtype=np.float32), samplerate=24000)
 print("Audio saved succesfully.")
 ```
 
-
+Remodeled for expresivity
 ## Terms of Use
 By using this model, you agree to only clone voices for which you have explicit permission. Unauthorized voice cloning is strictly prohibited. Any misuse of this model is the responsibility of the user.
 
