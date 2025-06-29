@@ -6,7 +6,7 @@ import torch
 import logging
 from huggingface_hub import login
 
-# 🔹 Configure Logging
+# 🔹 Configure Logging info
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # 🔹 Hugging Face Authentication
