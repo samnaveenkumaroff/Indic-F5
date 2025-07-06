@@ -5,7 +5,7 @@ import os
 import torch
 import logging
 from huggingface_hub import login
-
+#Made a personal tts voice cloner for tamil
 # 🔹 Configure Logging info
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
