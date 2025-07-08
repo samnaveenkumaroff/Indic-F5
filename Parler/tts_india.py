@@ -11,7 +11,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 # Load Model
 model = ParlerTTSForConditionalGeneration.from_pretrained("ai4bharat/indic-parler-tts").to(device)
 tokenizer = AutoTokenizer.from_pretrained("ai4bharat/indic-parler-tts")
-
+#Custom made
 # Supported Languages
 SUPPORTED_LANGUAGES = {...}  # Keeping the dictionary same as your original
 LANGUAGE_PROMPTS = {...}  # Keeping the dictionary same as your original
