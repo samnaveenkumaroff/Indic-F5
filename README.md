@@ -18,7 +18,6 @@ pipeline_tag: text-to-speech
 ---
 # **IndicF5: High-Quality Text-to-Speech for Indian Languages**
 
-
 We release **IndicF5**, a **near-human polyglot** **Text-to-Speech (TTS)** model trained on **1417 hours** of high-quality speech from **[Rasa](https://huggingface.co/datasets/ai4bharat/Rasa), [IndicTTS](https://www.iitm.ac.in/donlab/indictts/database), [LIMMITS](https://sites.google.com/view/limmits24/), and [IndicVoices-R](https://huggingface.co/datasets/ai4bharat/indicvoices_r)**.  
 
 IndicF5 supports **11 Indian languages**:  Mainly
